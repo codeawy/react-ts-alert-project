@@ -4,7 +4,7 @@ import Alert from "./components/ui/Alert/Alert";
 
 const App = () => {
   return (
-    <div style={{ margin: "2rem" }}>
+    <div className="app-wrapper">
       <Alert type={"alert-default"} icon={<Bell size={20} />} title={"Upgrade your plan"}>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur temporibus doloremque{" "}
